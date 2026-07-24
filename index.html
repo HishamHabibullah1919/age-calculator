@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+
+        <div class="card-box p-4">
+
+            <h1 class="text-center mb-4">Age Calculator</h1>
+
+            <div class="row g-3">
+
+                <!-- Year -->
+                <div class="col-md-4">
+                    <label class="form-label">Year</label>
+
+                    <select id="year" class="form-select">
+                        <option value="">Select Year</option>
+                    </select>
+                </div>
+
+                <!-- Month -->
+                <div class="col-md-4">
+                    <label class="form-label">Month</label>
+
+                    <select id="month" class="form-select">
+                        <option value="">Select Month</option>
+                    </select>
+                </div>
+
+                <!-- Date -->
+                <div class="col-md-4">
+                    <label class="form-label">Date</label>
+
+                    <select id="date" class="form-select">
+                        <option value="">Select Date</option>
+                    </select>
+                </div>
+
+                <!-- Hour -->
+                <div class="col-md-6">
+                    <label class="form-label">Hour</label>
+
+                    <select id="hour" class="form-select">
+                        <option value="">Select Hour</option>
+                    </select>
+                </div>
+
+                <!-- Minute -->
+                <div class="col-md-6">
+                    <label class="form-label">Minute</label>
+
+                    <select id="minute" class="form-select">
+                        <option value="">Select Minute</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-4">
+
+                <button class="btn btn-success px-5" onclick="calculateAge()">
+
+                    Calculate
+
+                </button>
+
+            </div>
+
+            <h4 id="result" class="text-center mt-4"></h4>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

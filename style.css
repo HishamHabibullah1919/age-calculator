@@ -1,0 +1,57 @@
+body {
+    background: black;
+    color: white;
+}
+
+.card-box {
+    border: 2px solid rgb(211, 224, 25);
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+}
+
+h1,
+label {
+    color: rgb(186, 167, 19);
+}
+
+.form-select {
+    background: #111;
+    color:
+        white;
+    border: 1px solid rgb(211, 224, 25);
+}
+
+.form-select:focus {
+    background: #111;
+    color: white;
+    border-color: rgb(211, 224, 25);
+    box-shadow: none;
+}
+
+option {
+    background: #111;
+    color: white;
+}
+
+#result {
+    color: rgb(211, 224, 25);
+    font-weight: bold;
+}
+
+.btn-success {
+    font-size: 18px;
+    padding: 10px 40px;
+}
+
+@media (max-width: 768px) {
+
+    .card-box {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+}
